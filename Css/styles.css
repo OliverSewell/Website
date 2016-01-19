@@ -111,7 +111,21 @@ li a {
 .description {
   max-width: 90%;
   margin: 25px auto;
+  text-align: justify;
 }
+
+
+.about {
+  max-width: 100%;
+  text-align: center;
+  background: lightgrey;
+}
+.aboutimage {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
 
 .gallery {
   max-width: 100%;
