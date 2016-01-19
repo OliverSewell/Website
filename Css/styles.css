@@ -7,6 +7,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     vertical-align: baseline;
     background: transparent;
 }
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 /* colors */
 .intro h1 {
   color: white;
@@ -21,7 +29,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 
 header {
-  background: lightblue;
+  background: #E0E0E0;
   width: 100%;
   padding: 5px 0px;
 }
@@ -102,5 +110,17 @@ li a {
 
 .description {
   max-width: 90%;
-  margin: 10px auto;
+  margin: 25px auto;
+}
+
+.gallery {
+  max-width: 100%;
+  background: #E0E0E0;
+  margin: 25px auto;
+}
+
+.gallery img {
+  float: left;
+  width: 45%;
+  margin: 5px;
 }
