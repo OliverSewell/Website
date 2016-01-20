@@ -110,7 +110,7 @@ li a {
 
 .description {
   max-width: 90%;
-  margin: 25px auto;
+  margin: 35px auto;
   text-align: justify;
 }
 
@@ -129,8 +129,8 @@ li a {
 
 .gallery {
   max-width: 100%;
-  background: #E0E0E0;
   text-align: center;
+  margin: 35px 0;
 }
 
 .gallery img {
