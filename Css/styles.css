@@ -152,7 +152,13 @@ li a {
   width: 45%;
   margin: 5px;
 }
+
+.contact {
+  background: lightgrey;
+  text-align: center;
+}
 form input,
 form textarea {
   display: block;
+  margin: 0 auto;
 }
