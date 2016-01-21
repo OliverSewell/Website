@@ -163,19 +163,50 @@ footer {
 @media only screen and (min-width: 768px),
        only screen and (min-width: 700px) and (orientation: landscape) {
 
+        .logo {
+          width: 100%;
+        }
 
         nav ul li{
           display:inline-block;
           text-align: center;
+          padding: 10px;
+          margin-right: 25px;
         }
 
         nav ul {
           text-align: center;
+          white-space:nowrap
         }
 
         .intro > p {
           font-size: 1.5rem;
         }
 
+        .about {
+          height: auto;
+          overflow: auto;
+        }
 
+        .about > h2 {
+        background: red;
+        }
+        .imagediv {
+          float: left;
+          width: 50%;
+          height: 200px;
+          margin-top: 5%;
+
+        }
+
+        .abouttext {
+        float: right;
+        width: 50%;
+        height: 200px;
+        padding-top: 20px;
+        margin-top: 5%;
+        padding-right: 20px;
+        }
+
+  
 }
