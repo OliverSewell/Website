@@ -208,5 +208,32 @@ footer {
         padding-right: 20px;
         }
 
-  
+
+}
+
+/* Desktop view */
+
+@media only screen and (min-width: 1024px) {
+  nav {
+    position: absolute;
+    top: 8%;
+    right: 5%;
+    z-index: 2;
+    float: left;
+  }
+  .logo {
+    position: absolute;
+    top: 6%;
+    left: 5%;
+    z-index:2;
+    width: 15%;
+  }
+
+  .intro > p {
+    font-size: 2rem;
+  }
+
+  .intro > h1 {
+    font-size: 3rem;
+  }
 }
