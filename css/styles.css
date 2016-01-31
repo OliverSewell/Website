@@ -1,0 +1,10 @@
+.panel-body > img {
+ margin: 0 auto;
+}
+
+.panel-footer > p {
+  text-align: center;
+  font-size: 2rem;
+  font-family: sans-serif;
+  word-spacing:0.2rem;
+}
