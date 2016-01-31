@@ -1,0 +1,271 @@
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+* {
+  	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+  background-image: url("../images/brickwall.png");
+}
+
+h1 {
+font-family: 'Lato', sans-serif;
+font-weight: 700;
+font-size: 2rem;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.7rem;
+  }
+
+p {
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+/********** Colors **********/
+
+header {
+  background: #16a085;
+  height: 50%;
+}
+
+header h1 {
+  padding-top: 10px;
+  text-align: center;
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 10px;
+}
+
+nav ul li:hover {
+  border-bottom: 5px solid #1abc9c;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #C75140;
+  font-weight: 600;
+}
+
+.featureimage {
+ background: url(../Images/featureimage.jpg);
+ background-size: cover;
+ height: 50vh;
+ margin: 3%;
+}
+
+
+.mainfeature {
+  margin-top: 20px;
+}
+.feature-title {
+  text-decoration: underline;
+  margin-bottom: 15px;
+  color: #C75140;
+}
+
+i {
+  font-size: 3rem;
+}
+.primary {
+  background: #1abc9c;
+  padding: 10px;
+  text-align: center;
+}
+
+.primary:hover {
+  background: #E8E8E8;
+}
+
+.secondary {
+  background: #E8E8E8;
+  padding: 10px;
+  text-align: center;
+}
+
+.secondary:hover {
+  background: #1abc9c;
+}
+
+.third {
+  background: #1abc9c;
+  padding: 10px;
+  text-align: center;
+}
+
+.third:hover {
+  background: #E8E8E8;
+}
+
+.showcase {
+  margin-top: 20px;
+}
+
+
+.showcase-items {
+ width: 100%;
+}
+.showcase-items li {
+  display: block;
+  float: left;
+  width: 50%;
+}
+
+.beforetest {
+  margin-top: 20px;
+  text-align: center;
+  color: #C75140;
+}
+.testimonials {
+  margin-top: 20px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) ,url(../Images/pizza.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.customers {
+  margin-top: 20px;
+  color: white;
+}
+
+blockquote {
+  margin-top: 40px;
+  padding: 10% 3%;
+  font-size: 1rem;
+  line-height: 145%;
+  position: relative;
+}
+
+blockquote:before {
+  content: "\201C";
+  font-size: 5rem;
+  display: block;
+  position: absolute;
+  top: -5;
+  left: -5;
+}
+
+
+cite {
+  margin-top: 25px;
+  display: block;
+}
+
+cite img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+
+.contact{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.contact h2 {
+  text-decoration: underline;
+  color: #C75140;
+}
+form,
+form h2{
+  text-align: center;
+  margin-top: 10px;
+}
+form input,
+form textarea {
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+@media only screen and (min-width: 768px),
+       only screen and (min-width: 700px) and (orientation: landscape) {
+
+  .featureimage {
+   background: url(../Images/featureimage.jpg) no-repeat bottom center fixed;
+   background-size: cover;
+   background-attachment: fixed;
+   height: 70vh;
+   margin: 0;
+
+  }
+
+
+  .showcase-items {
+   width: 100%;
+  }
+  .showcase-items li {
+    display: block;
+    float: left;
+    width: 33.333%;
+    overflow: hidden;
+    background: #1abc9c;
+  }
+
+  .showcase-items li img {
+    opacity: 0.7;
+    width: 100%;
+    margin: 0;
+    height: auto;
+    transform: scale(1.30);
+    transition: transform 0.5s;
+    transition: opacity: 0.5s;
+  }
+
+  .showcase-items li img:hover {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+nav {
+  display: inline-block;
+  float: right;
+  margin-right: 50px;
+  margin-top: 7px;
+}
+
+header {
+  padding: 10px;
+}
+
+header h1 {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+
+}
