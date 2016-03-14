@@ -1,0 +1,14 @@
+#header {
+  background: green;
+}
+
+.node-teaser h2 {
+  background: red;
+  text-align: center;
+  margin-left: 0;
+  width: 450px;
+}
+
+.region-sidebar-first {
+  display: none;
+}

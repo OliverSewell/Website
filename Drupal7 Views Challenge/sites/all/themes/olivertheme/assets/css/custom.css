@@ -1,0 +1,51 @@
+
+* {
+  box-sizing:border-box;
+}
+
+#page-wrapper{
+  background: yellow;
+}
+
+h2 {
+  text-align: center;
+  font-size: 5rem;
+  font-family: 'Lobster', cursive;
+  font-weight: 400;
+}
+
+p {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 400;
+}
+
+.views-row {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-top: 2px solid grey;
+  border-bottom: 2px solid black;
+}
+
+.post1 {
+  background: lightblue;
+  border: 2px solid red;
+  overflow: hidden;
+}
+
+
+
+.post23 {
+  margin-top: 10px;
+  background: lightgreen;
+  border:2px solid red;
+  overflow: hidden;
+}
+
+
+
+.post4567 {
+  margin-top: 10px;
+  background: pink;
+  border:2px solid red;
+  overflow: hidden;
+}

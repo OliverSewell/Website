@@ -1,0 +1,126 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+header {
+  background: lightblue;
+  max-width: 100%;
+  padding: 10px;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 2em;
+  color: grey;
+}
+
+nav {
+  text-align: center;
+}
+
+
+
+nav ul li {
+  display: inline-block;
+  padding: 0 5px 0 5px;
+  font-size: 1.5em;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+li a {
+	text-decoration: none;
+	color: purple;
+}
+
+.wrapper {
+	position relative;
+	min-height: 100%;
+}
+
+section {
+	padding: 50px;
+	background: lightgrey;
+	font-size: 20px
+}
+
+.about {
+	background: yellow;
+}
+
+.contact {
+	background: red;
+}
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+ background: purple;
+ padding: 50px;
+}
+
+
+
+@media only screen and (min-width: 768px),
+       only screen and (min-width: 700px) and (orientation: landscape) {
+
+         header h1 {
+           display: inline-block;
+           margin-left: 10%;
+
+         }
+
+         nav {
+           display: inline-block;
+           float: right;
+           margin-right: 50px;
+           margin-top: 7px;
+         }
+       }
